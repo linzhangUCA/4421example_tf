@@ -1,11 +1,9 @@
 import math
-import sys
-
-from geometry_msgs.msg import TransformStamped
 
 import rclpy
 from rclpy.node import Node
 
+from geometry_msgs.msg import TransformStamped
 from tf2_ros.static_transform_broadcaster import StaticTransformBroadcaster
 from tf_transformations import quaternion_from_euler
 
