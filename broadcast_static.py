@@ -31,7 +31,7 @@ class StaticFramePublisher(Node):
         t.transform.translation.x = 1.
         t.transform.translation.y = 2.
         t.transform.translation.z = 3.
-        quat = quaternion_from_euler(0., 0., -math.pi/4)
+        quat = quaternion_from_euler(math.pi/2, 0., math.pi/4)
         t.transform.rotation.x = quat[0]
         t.transform.rotation.y = quat[1]
         t.transform.rotation.z = quat[2]
